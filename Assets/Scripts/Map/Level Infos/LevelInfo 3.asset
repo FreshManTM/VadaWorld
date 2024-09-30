@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23df91aad5a64f44d9910b9f3087eba3, type: 3}
   m_Name: LevelInfo 3
   m_EditorClassIdentifier: 
-  Name: 
+  Image: {fileID: 0}
+  Name: 4
   Description: 
   PositiveEndingName: 
   PositiveEndingDescription: 

@@ -7,7 +7,7 @@ using UnityEngine;
 [Serializable]
 public class MapInfo
 {
-    public LevelInfo CurrentLevel;
+    public LevelInfo CurrentLevelInfo;
     public int CompletedLevelNum;
     public string[] CompletedEnding;
 

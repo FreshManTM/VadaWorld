@@ -13,10 +13,8 @@ public class Saver : MonoBehaviour
     {
         DontDestroyOnLoad(this);
         Instance = this;
-    }
-    private void Start()
-    {
         filePath = Path.Combine(Application.persistentDataPath, "data.json");
+
     }
 
    public void SaveInfo(MapInfo save)

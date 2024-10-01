@@ -12,10 +12,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23df91aad5a64f44d9910b9f3087eba3, type: 3}
   m_Name: LevelInfo
   m_EditorClassIdentifier: 
-  Image: {fileID: 0}
-  Name: 1
-  Description: 
-  PositiveEndingName: 
-  PositiveEndingDescription: 
-  NegativeEndingName: 
-  NegativeEndingDescription: 
+  Image: {fileID: 21300000, guid: ff0f8302f5ffc8a40a5ebbfabe968bcc, type: 3}
+  Name: 'Wild West Casino '
+  Description: "The \"Golden Horseshoe\" casino is located in a small Wild West town,
+    frequented by cowboys and gold prospectors. The owner has invested everything
+    in this establishment, but players suspect the games are rigged. The town is
+    on the verge of collapse, and if the casino doesn\u2019t become profitable, it
+    will disappear along with the town."
+  PositiveEndingName: Honest games
+  PositiveEndingDescription: The casino thrives, the town remains on the map, and
+    it eventually becomes a famous Wild West resort.
+  NegativeEndingName: Sell the casino
+  NegativeEndingDescription: The casino becomes a private club, and the town soon
+    withers away as regular patrons are no longer welcome.

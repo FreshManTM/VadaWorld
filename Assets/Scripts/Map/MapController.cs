@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class MapController : MonoBehaviour
@@ -11,10 +12,10 @@ public class MapController : MonoBehaviour
     [SerializeField] MapLevel[] _mapLevels;
     [SerializeField] Transform _cross;
     [Space]
-    [SerializeField] GameObject _casinoPanel;
-    [SerializeField] Image _casinoImage;
-    [SerializeField] TextMeshProUGUI _casinoName_Text;
-    [SerializeField] TextMeshProUGUI _casinoDescription_Text;
+    [SerializeField] GameObject _casPanel;
+    [SerializeField] Image _casImage;
+    [SerializeField] TextMeshProUGUI _casName_Text;
+    [SerializeField] TextMeshProUGUI _casDescription_Text;
 
     MapInfo _mapInfo = new MapInfo();
 
@@ -29,12 +30,17 @@ public class MapController : MonoBehaviour
         _mapInfo.CurrentLevelInfo = _levelInfos[num];
         var lvlInfo = _mapInfo.CurrentLevelInfo;
 
-        _casinoPanel.SetActive(true);
-        _casinoImage.sprite = lvlInfo.Image;
-        _casinoName_Text.text = lvlInfo.Name;
-        _casinoDescription_Text.text = lvlInfo.Description;
+        _casPanel.SetActive(true);
+        _casImage.sprite = lvlInfo.Image;
+        _casName_Text.text = lvlInfo.Name;
+        _casDescription_Text.text = lvlInfo.Description;
 
         Saver.Instance.SaveInfo(_mapInfo);
+    }
+
+    public void LoadSceneButton(int sceneNum)
+    {
+        SceneManager.LoadScene(sceneNum);
     }
 
     void SetLevelsOnMap()

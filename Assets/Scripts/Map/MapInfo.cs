@@ -10,5 +10,4 @@ public class MapInfo
     public LevelInfo CurrentLevelInfo;
     public int CompletedLevelNum;
     public string[] CompletedEnding;
-
 }

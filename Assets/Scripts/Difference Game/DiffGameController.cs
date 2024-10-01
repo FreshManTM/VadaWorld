@@ -38,13 +38,14 @@ public class DiffGameController : MonoBehaviour
         if (++_diffAmount >= _maxDiff)
         {
             print("you win");
-            _winPanel.SetActive(true);
-            //PlayerPrefs.SetInt("DiffLvl", PlayerPrefs.GetInt("DiffLvl") + 1);
-            //MapInfo mapInfo = Saver.Instance.LoadInfo();
-            //mapInfo.CompletedLevelNum++;
-            //Saver.Instance.SaveInfo(mapInfo);
-
+            Invoke(nameof(EnabledWinPanel), 1f);
         }
+
         _diffAmount_Text.text = _diffAmount + "/" + _maxDiff;
+    }
+
+    void EnabledWinPanel()
+    {
+        _winPanel.SetActive(true);
     }
 }

@@ -8,6 +8,7 @@ public class LevelInfo : ScriptableObject
     public Sprite Image;
     public string Name;
     public string Description;
+    public bool IsPuzzle;
     [Space]
     public string PositiveEndingName;
     [TextArea]

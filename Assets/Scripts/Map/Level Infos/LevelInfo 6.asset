@@ -12,9 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23df91aad5a64f44d9910b9f3087eba3, type: 3}
   m_Name: LevelInfo 6
   m_EditorClassIdentifier: 
-  Name: 
-  Description: 
-  PositiveEndingName: 
-  PositiveEndingDescription: 
-  NegativeEndingName: 
-  NegativeEndingDescription: 
+  Image: {fileID: 21300000, guid: 902c4794b0748fe4788a703c8059836f, type: 3}
+  Name: Renaissance Casino
+  Description: The "Golden Gallery" casino in Florence attracts artists, philosophers,
+    and elite patrons. The owner wants to transform the casino into an art gallery,
+    but his partners prefer to keep it a profitable gambling establishment.
+  IsPuzzle: 1
+  PositiveEndingName: Turn it into an art gallery
+  PositiveEndingDescription: The casino becomes a renowned art gallery, but loses
+    many of its regular customers who preferred gambling.
+  NegativeEndingName: Keep it a casino
+  NegativeEndingDescription: The casino remains profitable, but loses its cultural
+    appeal over time.

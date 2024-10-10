@@ -12,10 +12,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23df91aad5a64f44d9910b9f3087eba3, type: 3}
   m_Name: LevelInfo 5
   m_EditorClassIdentifier: 
-  Image: {fileID: 0}
-  Name: 6
-  Description: 
-  PositiveEndingName: 
-  PositiveEndingDescription: 
-  NegativeEndingName: 
-  NegativeEndingDescription: 
+  Image: {fileID: 21300000, guid: 95a2fefcf261aef45b94a6d16a3ab6f5, type: 3}
+  Name: Medieval Tavern Casino
+  Description: "The \"Golden Goblet\" tavern-casino is popular among knights and
+    merchants in a small medieval village. The owner, a former noble, is in hiding
+    after a failed rebellion, and he is considering shutting down the casino to avoid
+    royal attention, even though it\u2019s his only source of income. "
+  IsPuzzle: 0
+  PositiveEndingName: Encourage the owner to keep the casino
+  PositiveEndingDescription: The tavern thrives as a hidden gambling den, serving
+    outlaws and gamblers without attracting too much attention.
+  NegativeEndingName: Convince the owner to flee
+  NegativeEndingDescription: The casino shuts down, and the village slowly declines,
+    becoming deserted.

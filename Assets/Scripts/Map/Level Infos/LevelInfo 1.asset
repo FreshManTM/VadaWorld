@@ -12,12 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23df91aad5a64f44d9910b9f3087eba3, type: 3}
   m_Name: LevelInfo 1
   m_EditorClassIdentifier: 
-  Image: {fileID: 21300000, guid: 6c900fa7a519ce043b3508e0902dab6c, type: 3}
+  Image: {fileID: 21300000, guid: d362263778194a245b4a67435605173e, type: 3}
   Name: Roaring Twenties Casino
   Description: "The \"Golden Star\" casino in New York City is a hotspot during lavish
     parties, where champagne flows freely and jazz fills the air. However, it\u2019s
     under threat of closure due to the growing Prohibition movement against alcohol
     and gambling."
+  IsPuzzle: 1
   PositiveEndingName: Support the prohibition
   PositiveEndingDescription: The casino shuts down, but the building becomes an elite
     club that hosts secret parties.

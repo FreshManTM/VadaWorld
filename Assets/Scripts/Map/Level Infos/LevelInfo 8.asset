@@ -12,9 +12,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23df91aad5a64f44d9910b9f3087eba3, type: 3}
   m_Name: LevelInfo 8
   m_EditorClassIdentifier: 
-  Name: 
-  Description: 
-  PositiveEndingName: 
-  PositiveEndingDescription: 
-  NegativeEndingName: 
-  NegativeEndingDescription: 
+  Image: {fileID: 21300000, guid: 8365dd7fae7f6474c9b1e6fd47b75997, type: 3}
+  Name: Cyberpunk Future Casino
+  Description: "The \"Neon Arena\" casino in a futuristic metropolis offers virtual
+    reality gambling and cryptocurrency transactions. However, a hacker collective
+    threatens to expose the casino\u2019s illegal activities unless the owner gives
+    them free access."
+  IsPuzzle: 0
+  PositiveEndingName: Pay off the hackers
+  PositiveEndingDescription: The casino is safe for a while, but the hackers eventually
+    return with more demands, leading to its downfall.
+  NegativeEndingName: Upgrade security
+  NegativeEndingDescription: The casino successfully repels the hackers, becoming
+    one of the most secure gambling venues in the world, though it loses profits
+    due to high security costs.

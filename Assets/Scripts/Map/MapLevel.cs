@@ -11,13 +11,13 @@ public class MapLevel : MonoBehaviour
 
     public void UnlockLvl()
     {
-        GetComponent<Button>().enabled = true;
         _lock.SetActive(false);
         Shadow.gameObject.SetActive(false);
     }
     
     public void SetCurrentLvl()
     {
+        GetComponent<Button>().enabled = true;
         _stroke.color = Color.yellow;
     }
 }

@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class EndingController : MonoBehaviour
@@ -42,8 +43,14 @@ public class EndingController : MonoBehaviour
         _mapInfo.CompletedLevelNum++;
         _mapInfo.CompletedEnding[_mapInfo.CompletedLevelNum - 1] = description;
 
-
-        PlayerPrefs.SetInt("DiffLvl", PlayerPrefs.GetInt("DiffLvl") + 1);
+        if(SceneManager.GetActiveScene().buildIndex == 1)
+        {
+            PlayerPrefs.SetInt("DiffLvl", PlayerPrefs.GetInt("DiffLvl") + 1);
+        }
+        else
+        {
+            PlayerPrefs.SetInt("PuzzleLvl", PlayerPrefs.GetInt("PuzzleLvl") + 1);
+        }
         Saver.Instance.SaveInfo(_mapInfo);
     }
 }

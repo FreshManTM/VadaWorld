@@ -38,9 +38,16 @@ public class MapController : MonoBehaviour
         Saver.Instance.SaveInfo(_mapInfo);
     }
 
-    public void LoadSceneButton(int sceneNum)
+    public void LoadGameButton()
     {
-        SceneManager.LoadScene(sceneNum);
+        if (_mapInfo.CurrentLevelInfo.IsPuzzle)
+        {
+            SceneManager.LoadScene(2);
+        }
+        else
+        {
+            SceneManager.LoadScene(1);
+        }
     }
 
     void SetLevelsOnMap()

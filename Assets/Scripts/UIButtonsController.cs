@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class UIButtonsController : MonoBehaviour
 {
+    [SerializeField] AudioSource _music;
     public void PauseButton()
     {
         Time.timeScale = 0f;
@@ -21,9 +22,19 @@ public class UIButtonsController : MonoBehaviour
 
     public void SoundToggle(Animator animator)
     {
-        if (animator.GetCurrentAnimatorStateInfo(0).normalizedTime > 1)
+        if (animator.GetCurrentAnimatorStateInfo(0).normalizedTime > 1 && _music != null)
         {
-            animator.SetBool("On", !animator.GetBool("On"));
+            if (animator.GetBool("On"))
+            {
+                animator.SetBool("On", false);
+                _music.Pause();
+            }
+            else
+            {
+                animator.SetBool("On", true);
+                _music.Play();
+            }
+
         }
     }
 }

@@ -16,6 +16,7 @@ public class DiffGameController : MonoBehaviour
     [SerializeField] Sprite[] _diffSprites;
     [SerializeField] Image _normalImage;
     [SerializeField] Image _diffImage;
+    [SerializeField] AudioSource _winSound;
 
     int _diffAmount;
     int _maxDiff = 5;
@@ -37,7 +38,7 @@ public class DiffGameController : MonoBehaviour
     {
         if (++_diffAmount >= _maxDiff)
         {
-            print("you win");
+            _winSound.Play();
             Invoke(nameof(EnabledWinPanel), 1f);
         }
 

@@ -12,6 +12,7 @@ public class PGController : MonoBehaviour
     [SerializeField] PSprites[] _puzzleSprites;
     [SerializeField] GameObject _winPanel;
     [SerializeField] TextMeshProUGUI _puzzleNumText;
+    [SerializeField] AudioSource _winSound;
 
     int _setPuzzles;
 
@@ -35,6 +36,7 @@ public class PGController : MonoBehaviour
         _puzzleNumText.text = _setPuzzles + "/25";
         if(_setPuzzles >= _puzzleParts.Length)
         {
+            _winSound.Play();
             Invoke(nameof(EnabledWinPanel), 1f);
         }
     }

@@ -18,4 +18,12 @@ public class UIButtonsController : MonoBehaviour
         ResumeButton();
         SceneManager.LoadScene(0);
     }
+
+    public void SoundToggle(Animator animator)
+    {
+        if (animator.GetCurrentAnimatorStateInfo(0).normalizedTime > 1)
+        {
+            animator.SetBool("On", !animator.GetBool("On"));
+        }
+    }
 }

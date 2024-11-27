@@ -13,14 +13,14 @@ MonoBehaviour:
   m_Name: LevelInfo 2
   m_EditorClassIdentifier: 
   Image: {fileID: 21300000, guid: c0f1daf9d91849e459715c46aa4b812c, type: 3}
-  Name: Vegas Casino
+  Name: Vegas Puzzle
   Description: The "Silver Oasis" is one of the first casinos in Las Vegas, but it
-    is under mafia control. The casino manager wants to free the business from mafia
-    influence and go legitimate but fears retaliation if he tries.
+    is under mafia control. The manager wants to free the business from mafia influence
+    and go legitimate but fears retaliation if he tries.
   IsPuzzle: 0
   PositiveEndingName: Go legitimate
-  PositiveEndingDescription: The casino becomes part of legendary Las Vegas and prospers,
-    attracting tourists from around the world.
+  PositiveEndingDescription: Becomes part of legendary Las Vegas and prospers, attracting
+    tourists from around the world.
   NegativeEndingName: Continue working with the mafia
-  NegativeEndingDescription: The casino thrives for a while, but eventually gets
-    shut down as the authorities uncover its mafia connections.
+  NegativeEndingDescription: Thrives for a while, but eventually gets shut down as
+    the authorities uncover its mafia connections.

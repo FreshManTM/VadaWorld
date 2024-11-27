@@ -214,7 +214,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &9509100
 RectTransform:
   m_ObjectHideFlags: 0
@@ -654,9 +654,9 @@ RectTransform:
   - {fileID: 1773456835}
   m_Father: {fileID: 585122201}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 532.8, y: -850}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 1065.6, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &118370189
@@ -5731,7 +5731,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5328896291581488871, guid: ee6cf981eda604b40a46371e27383fc6, type: 3}
       propertyPath: m_text
-      value: Explore Historical Casinos
+      value: Explore Historical
       objectReference: {fileID: 0}
     - target: {fileID: 6608753490762032617, guid: ee6cf981eda604b40a46371e27383fc6, type: 3}
       propertyPath: m_Name
@@ -5743,13 +5743,13 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9156946917324546359, guid: ee6cf981eda604b40a46371e27383fc6, type: 3}
       propertyPath: m_text
-      value: "Travel through history and experience casinos from various eras\u2014each
-        with its own challenges and characters. Your choices will determine if these
-        casinos thrive or fall."
+      value: "Travel through history and experience from various eras\u2014each with
+        its own challenges and characters. Your choices will determine if these thrive
+        or fall."
       objectReference: {fileID: 0}
     - target: {fileID: 9156946917324546359, guid: ee6cf981eda604b40a46371e27383fc6, type: 3}
       propertyPath: m_fontSize
-      value: 24.25
+      value: 25
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6159,7 +6159,7 @@ PrefabInstance:
       propertyPath: m_text
       value: "To progress, you\u2019ll solve fun puzzles like finding differences
         or completing picture puzzles. Each solution unlocks new paths and decisions
-        for the casino\u2019s future."
+        for the future."
       objectReference: {fileID: 0}
     - target: {fileID: 9156946917324546359, guid: ee6cf981eda604b40a46371e27383fc6, type: 3}
       propertyPath: m_fontSize
@@ -6384,13 +6384,13 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9156946917324546359, guid: ee6cf981eda604b40a46371e27383fc6, type: 3}
       propertyPath: m_text
-      value: Take your time to explore each casino, uncover hidden stories, and make
-        thoughtful decisions. Whether you play quickly or enjoy the journey, each
-        casino offers something new.
+      value: Take your time to explore, uncover hidden stories, and make thoughtful
+        decisions. Whether you play quickly or enjoy the journey, each offers something
+        new.
       objectReference: {fileID: 0}
     - target: {fileID: 9156946917324546359, guid: ee6cf981eda604b40a46371e27383fc6, type: 3}
       propertyPath: m_fontSize
-      value: 24.75
+      value: 25
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -12204,9 +12204,9 @@ RectTransform:
   - {fileID: 198799673}
   m_Father: {fileID: 585122201}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 532.8, y: -350}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 1065.6, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1819937122
@@ -12922,7 +12922,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1903512486
 RectTransform:
   m_ObjectHideFlags: 0
@@ -13649,8 +13649,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9156946917324546359, guid: ee6cf981eda604b40a46371e27383fc6, type: 3}
       propertyPath: m_text
-      value: Every decision you make affects the fate of the casinos. Will you help
-        them succeed or lead them to ruin? The outcome depends on your choices.
+      value: Every decision you make affects the fate. Will you help them succeed
+        or lead them to ruin? The outcome depends on your choices.
       objectReference: {fileID: 0}
     - target: {fileID: 9156946917324546359, guid: ee6cf981eda604b40a46371e27383fc6, type: 3}
       propertyPath: m_fontSize
@@ -14725,9 +14725,9 @@ RectTransform:
   - {fileID: 1775991599}
   m_Father: {fileID: 585122201}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 532.8, y: -600}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 1065.6, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2111667073
@@ -16317,9 +16317,9 @@ RectTransform:
   - {fileID: 1012662268}
   m_Father: {fileID: 585122201}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 532.8, y: -100}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 1065.6, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &6735858401648069151
@@ -16611,6 +16611,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 5328896291581488871, guid: ee6cf981eda604b40a46371e27383fc6, type: 3}
+      propertyPath: m_text
+      value: Welcome to Your Adventure
+      objectReference: {fileID: 0}
     - target: {fileID: 6608753490762032617, guid: ee6cf981eda604b40a46371e27383fc6, type: 3}
       propertyPath: m_Name
       value: TPage
@@ -16622,6 +16626,15 @@ PrefabInstance:
     - target: {fileID: 8510672214852716804, guid: ee6cf981eda604b40a46371e27383fc6, type: 3}
       propertyPath: m_text
       value: Start
+      objectReference: {fileID: 0}
+    - target: {fileID: 9156946917324546359, guid: ee6cf981eda604b40a46371e27383fc6, type: 3}
+      propertyPath: m_text
+      value: Embark on a journey through different time periods and unique. Make
+        choices that shape the future as you solve puzzles and explore hidden stories.
+      objectReference: {fileID: 0}
+    - target: {fileID: 9156946917324546359, guid: ee6cf981eda604b40a46371e27383fc6, type: 3}
+      propertyPath: m_fontSize
+      value: 25
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

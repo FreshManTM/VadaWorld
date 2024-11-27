@@ -13,14 +13,14 @@ MonoBehaviour:
   m_Name: LevelInfo 4
   m_EditorClassIdentifier: 
   Image: {fileID: 21300000, guid: fd23135e302fbe0479648ab0396cd889, type: 3}
-  Name: Ancient Roman Casino
+  Name: Ancient Roman Puzzle
   Description: The "Arenatorium" is a gambling house in Rome where senators and warriors
     place bets on gladiator fights and dice games. However, the owner fears that
     the Senate will shut it down as gambling becomes unpopular among the elite.
   IsPuzzle: 1
   PositiveEndingName: Shut down the games
-  PositiveEndingDescription: The casino closes, and the owner becomes a respected
-    senator, remembered for his contributions to Rome.
+  PositiveEndingDescription: Closes, and the owner becomes a respected senator, remembered
+    for his contributions to Rome.
   NegativeEndingName: Keep running the games in secret
-  NegativeEndingDescription: The casino thrives for a few more years, but eventually,
-    the owner is disgraced and loses everything.
+  NegativeEndingDescription: Thrives for a few more years, but eventually, the owner
+    is disgraced and loses everything.

@@ -13,16 +13,16 @@ MonoBehaviour:
   m_Name: LevelInfo 9
   m_EditorClassIdentifier: 
   Image: {fileID: 21300000, guid: 7416384cb98a5554e8bf2d51c26d3d93, type: 3}
-  Name: Wild East Casino
-  Description: This casino, located on the border of the Russian Empire, is a gathering
-    place for traders, soldiers, and aristocrats. However, tensions are rising between
+  Name: Wild East Puzzle
+  Description: Located on the border of the Russian Empire, is a gathering place
+    for traders, soldiers, and aristocrats. However, tensions are rising between
     the aristocracy and the military, who use the casino for different purposes -
     some to escape, others to strategize.
   IsPuzzle: 1
   PositiveEndingName: Cater to the military
-  PositiveEndingDescription: "The casino becomes a strategic hub for military planning,
-    but gets too involved in political affairs and eventually faces problems.\r"
+  PositiveEndingDescription: "Becomes a strategic hub for military planning, but
+    gets too involved in political affairs and eventually faces problems.\r"
   NegativeEndingName: Focus on the aristocrats and traders
-  NegativeEndingDescription: The casino becomes a luxurious destination for the aristocracy,
+  NegativeEndingDescription: Becomes a luxurious destination for the aristocracy,
     but loses its military clientele and risks being viewed with suspicion by the
     government.

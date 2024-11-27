@@ -13,15 +13,15 @@ MonoBehaviour:
   m_Name: LevelInfo 7
   m_EditorClassIdentifier: 
   Image: {fileID: 21300000, guid: 395a90e65e6763546b73bb806f2575c0, type: 3}
-  Name: Prohibition Riverboat Casino
-  Description: "This floating casino operates on a luxurious riverboat during the
-    height of Prohibition in the United States. It\u2019s a secret haven for illegal
-    gambling and drinking, but law enforcement is closing in, and the owner is debating
-    whether to flee to international waters."
+  Name: Prohibition Riverboat Puzzle
+  Description: "This floating operates on a luxurious riverboat during the height
+    of Prohibition in the United States. It\u2019s a secret haven for illegal gambling
+    and drinking, but law enforcement is closing in, and the owner is debating whether
+    to flee to international waters."
   IsPuzzle: 0
   PositiveEndingName: Stay and bribe the authorities
-  PositiveEndingDescription: The casino continues to operate for a while, but eventually,
-    the bribes fail, and it is shut down.
+  PositiveEndingDescription: Continues to operate for a while, but eventually, the
+    bribes fail, and it is shut down.
   NegativeEndingName: Move to international waters
-  NegativeEndingDescription: The casino thrives in international waters but loses
-    many local customers who can no longer reach it easily.
+  NegativeEndingDescription: Thrives in international waters but loses many local
+    customers who can no longer reach it easily.

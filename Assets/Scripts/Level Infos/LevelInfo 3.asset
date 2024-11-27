@@ -13,14 +13,14 @@ MonoBehaviour:
   m_Name: LevelInfo 3
   m_EditorClassIdentifier: 
   Image: {fileID: 21300000, guid: 0316c26def3d1834ab6d656a8876a025, type: 3}
-  Name: Future Casino
-  Description: The "Sky Sphere" casino is located on a massive orbital station, where
-    games are played through virtual reality and cryptocurrencies. However, the owners
-    fear that due to heavy government regulation, the casino may be shut down.
+  Name: Future Puzzle
+  Description: '"Sky Sphere" is located on a massive orbital station, where games
+    are played through virtual reality and cryptocurrencies. However, the owners
+    fear that due to heavy government regulation, may be shut down.'
   IsPuzzle: 0
   PositiveEndingName: Follow the rules
-  PositiveEndingDescription: The casino remains operational but loses its uniqueness,
-    becoming just one of many regulated casinos.
+  PositiveEndingDescription: Remains operational but loses its uniqueness, becoming
+    just one of many regulated casinos.
   NegativeEndingName: Run underground operations
-  NegativeEndingDescription: The casino thrives in secret for a time, but eventually,
-    the station is shut down by the government.
+  NegativeEndingDescription: Thrives in secret for a time, but eventually, the station
+    is shut down by the government.

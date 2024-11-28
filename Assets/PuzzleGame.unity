@@ -761,7 +761,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 14611052366960888, guid: 9a450efb597109e4cac7c3f962fff093, type: 3}
       propertyPath: m_Name
-      value: Button_Sound
+      value: zdxzxhfdzhgrz ghg
       objectReference: {fileID: 0}
     - target: {fileID: 6900287639257364004, guid: 9a450efb597109e4cac7c3f962fff093, type: 3}
       propertyPath: m_LocalPosition.x
@@ -825,7 +825,7 @@ GameObject:
   - component: {fileID: 252351596}
   - component: {fileID: 252351595}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: zsdgfdg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1393,7 +1393,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 562509187837643488, guid: a04b3e3ee4d62f0408719ee29f3f6a95, type: 3}
       propertyPath: m_Name
-      value: Win_Sound
+      value: 'zfdrgzdgzgfd '
       objectReference: {fileID: 0}
     - target: {fileID: 7428866361736144014, guid: a04b3e3ee4d62f0408719ee29f3f6a95, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1585,7 +1585,7 @@ GameObject:
   - component: {fileID: 401938247}
   - component: {fileID: 401938246}
   m_Layer: 0
-  m_Name: PGController
+  m_Name: sssetgtgewsfewsrg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2049,7 +2049,7 @@ GameObject:
   - component: {fileID: 441637065}
   - component: {fileID: 441637067}
   m_Layer: 5
-  m_Name: Pause_Button
+  m_Name: ytjkg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2243,7 +2243,7 @@ GameObject:
   - component: {fileID: 519420031}
   - component: {fileID: 519420029}
   m_Layer: 0
-  m_Name: Main Camera
+  m_Name: fhjgrrvc
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2333,7 +2333,7 @@ GameObject:
   m_Component:
   - component: {fileID: 551298822}
   m_Layer: 5
-  m_Name: TopBar
+  m_Name: zgdzfrgdz
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3033,7 +3033,7 @@ GameObject:
   - component: {fileID: 730097424}
   - component: {fileID: 730097423}
   m_Layer: 5
-  m_Name: Background
+  m_Name: fdzghgdzrfg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3109,7 +3109,7 @@ GameObject:
   - component: {fileID: 803480281}
   - component: {fileID: 803480283}
   m_Layer: 5
-  m_Name: Home_Button
+  m_Name: fhtdg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3708,7 +3708,7 @@ GameObject:
   - component: {fileID: 1062873027}
   - component: {fileID: 1062873026}
   m_Layer: 5
-  m_Name: Canvas
+  m_Name: sdgsfdgfds
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4567,7 +4567,7 @@ GameObject:
   - component: {fileID: 1345764445}
   - component: {fileID: 1345764444}
   m_Layer: 0
-  m_Name: EventSystem
+  m_Name: dzrhzhyer hr
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5480,7 +5480,7 @@ GameObject:
   - component: {fileID: 1560459460}
   - component: {fileID: 1560459459}
   m_Layer: 0
-  m_Name: Saver
+  m_Name: fasdgfadgsfadg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6565,7 +6565,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1967979854}
   m_Layer: 5
-  m_Name: Image
+  m_Name: drgrzg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7171,7 +7171,7 @@ GameObject:
   - component: {fileID: 2047939409}
   - component: {fileID: 2047939408}
   m_Layer: 0
-  m_Name: UIButtonsController
+  m_Name: sgg gsdfg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7189,6 +7189,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cee39af6f1080d046963b095e309a7a9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _music: {fileID: 0}
 --- !u!4 &2047939409
 Transform:
   m_ObjectHideFlags: 0

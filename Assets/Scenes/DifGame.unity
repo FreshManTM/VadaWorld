@@ -2550,7 +2550,7 @@ GameObject:
   - component: {fileID: 519420031}
   - component: {fileID: 519420029}
   m_Layer: 0
-  m_Name: Main Camera
+  m_Name: zyhgzhhh
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2678,7 +2678,7 @@ GameObject:
   m_Component:
   - component: {fileID: 559474187}
   m_Layer: 5
-  m_Name: Pause Panel
+  m_Name: fdxhhfghxh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4459,7 +4459,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1018984576}
   m_Layer: 5
-  m_Name: Image 2
+  m_Name: xfdghsxfghjsf
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5254,7 +5254,7 @@ GameObject:
   - component: {fileID: 1280902486}
   - component: {fileID: 1280902485}
   m_Layer: 0
-  m_Name: DiffGameController
+  m_Name: hsfghs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5796,7 +5796,7 @@ GameObject:
   - component: {fileID: 1345764445}
   - component: {fileID: 1345764444}
   m_Layer: 0
-  m_Name: EventSystem
+  m_Name: hxfghxfgjh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6624,7 +6624,7 @@ GameObject:
   - component: {fileID: 1560459460}
   - component: {fileID: 1560459459}
   m_Layer: 0
-  m_Name: Saver
+  m_Name: txht
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8018,7 +8018,7 @@ GameObject:
   - component: {fileID: 1856006488}
   - component: {fileID: 1856006489}
   m_Layer: 5
-  m_Name: Win Panel
+  m_Name: lkjluiu
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8503,7 +8503,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1967979854}
   m_Layer: 5
-  m_Name: Image 1
+  m_Name: fhgfhhfhf
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8540,7 +8540,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 14611052366960888, guid: 9a450efb597109e4cac7c3f962fff093, type: 3}
       propertyPath: m_Name
-      value: Button_Sound
+      value: fgjhzjj
       objectReference: {fileID: 0}
     - target: {fileID: 6900287639257364004, guid: 9a450efb597109e4cac7c3f962fff093, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8961,7 +8961,7 @@ GameObject:
   - component: {fileID: 2047939409}
   - component: {fileID: 2047939408}
   m_Layer: 0
-  m_Name: UIButtonsController
+  m_Name: hjsrj
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8979,6 +8979,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cee39af6f1080d046963b095e309a7a9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _music: {fileID: 0}
 --- !u!4 &2047939409
 Transform:
   m_ObjectHideFlags: 0
@@ -9215,7 +9216,7 @@ GameObject:
   - component: {fileID: 6900287637742053520}
   - component: {fileID: 7934716088994118377}
   m_Layer: 0
-  m_Name: Successfull_Sound
+  m_Name: hfdhzdfhdh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9231,7 +9232,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 562509187837643488, guid: a04b3e3ee4d62f0408719ee29f3f6a95, type: 3}
       propertyPath: m_Name
-      value: Win_Sound
+      value: bzgfzhgzfd
       objectReference: {fileID: 0}
     - target: {fileID: 7428866361736144014, guid: a04b3e3ee4d62f0408719ee29f3f6a95, type: 3}
       propertyPath: m_LocalPosition.x

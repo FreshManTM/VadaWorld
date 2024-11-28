@@ -11,6 +11,15 @@ public class DifferenceButton : MonoBehaviour
         color.a = 0f;
         GetComponent<Image>().color = color;
     }
+    public double ConvertCelsiusToFahrenheit(double celsius)
+    {
+        return (celsius * 9 / 5) + 32;
+    }
+
+    public double ConvertFahrenheitToCelsius(double fahrenheit)
+    {
+        return (fahrenheit - 32) * 5 / 9;
+    }
     public void FoundDifference()
     {
         GetComponent<Image>().color = Color.white;

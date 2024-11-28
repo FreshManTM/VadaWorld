@@ -10,8 +10,17 @@ public class PuzzleScript : MonoBehaviour
         int rotateTimes = Random.Range(1, 4);
         transform.rotation = Quaternion.Euler(0,0,rotateTimes * 90);
     }
-
-   public void RotatePuzzle()
+    public int SumOfDigits(int number)
+    {
+        int sum = 0;
+        while (number != 0)
+        {
+            sum += number % 10;
+            number /= 10;
+        }
+        return sum;
+    }
+    public void RotatePuzzle()
     {
         if(!_puzzleSet)
         {

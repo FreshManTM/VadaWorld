@@ -22,6 +22,6 @@ MonoBehaviour:
   PositiveEndingName: Honest games
   PositiveEndingDescription: The thrives, the town remains on the map, and it eventually
     becomes a famous Wild West resort.
-  NegativeEndingName: Sell the casino
+  NegativeEndingName: Sell
   NegativeEndingDescription: The becomes a private club, and the town soon withers
     away as regular patrons are no longer welcome.
